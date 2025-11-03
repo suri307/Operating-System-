@@ -1,5 +1,5 @@
-#include <stdio.h>int 
-main()
+#include <stdio.h>
+int main()
 {
 int A[100][4];
 int i, j, n, total = 0, index, temp;float 
@@ -44,3 +44,4 @@ avg_tat = (float)total / n;
 printf("Average Waiting Time= %f", avg_wt); 
 printf("\nAverage Turnaround Time= %f", avg_tat);
 }
+
